@@ -1,0 +1,2 @@
+# bulgar_newspaper_delivery_config_example
+bulgar_newspaper_delivery_config_example
