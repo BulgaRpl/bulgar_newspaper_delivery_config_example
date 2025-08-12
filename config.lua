@@ -28,6 +28,7 @@ Config.DeliveryPromptDistance = 4.0 -- DELIVERY LOCATION DISTANCE
 Config.InteractionKey = 0x760A9C6F -- G -- Begin/End Newspaper Delivery
 Config.InteractionKey2 = 0xCEFD9220 -- E -- Deliver the Newspaper
 Config.InteractionKey3 = 0xCEFD9220 -- E -- End Newspaper Delivery and take Payment
+Config.AllowOnlyDeliverOnFoot = false -- If true player cannot Deliver when on Horse etc
 
 -- Delivery Settings
 Config.OpenTime = 6 -- 0 - 24
@@ -103,4 +104,5 @@ end
 
 Config.LeftNot = function(text)
 	-- ITS CONFIGURED HERE AFTER U GET THE SCRIPT
+
 end
