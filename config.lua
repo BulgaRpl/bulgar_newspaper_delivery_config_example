@@ -33,6 +33,7 @@ Config.AllowOnlyDeliverOnFoot = false -- If true player cannot Deliver when on H
 -- Delivery Settings
 Config.OpenTime = 6 -- 0 - 24
 Config.CloseTime = 18 -- 0 - 24
+Config.CooldownMinutes = 30 -- How long does a player have to wait in minutes before they can start working at a given location again?
 Config.DeliveriesNumber = 10 -- Number of Deliveries per mission
 Config.DeliveryPoints = { -- ITS CONFIGURED HERE AFTER U GET THE SCRIPT
     ["Valentine"] = {
@@ -95,6 +96,9 @@ Config.Language = { -- ITS CONFIGURED HERE AFTER U GET THE SCRIPT
     [10] = {text = "EXAMPLE TRANSLATION",},
     [11] = {text = "EXAMPLE TRANSLATION",},
     [12] = {text = "EXAMPLE TRANSLATION",},
+    [13] = {text = "EXAMPLE TRANSLATION",},
+    [14] = {text = "EXAMPLE TRANSLATION",},
+    [15] = {text = "EXAMPLE TRANSLATION",},
 }
 
 -- Notifications
